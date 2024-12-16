@@ -4,7 +4,7 @@ This repository contains the official implementation of the paper:
 
 > **EnYOLO: A Real-Time Framework for Domain-Adaptive Underwater Object Detectoin with Image Enhancement** (accepted by ICRA2024)<br>
 > Junjie Wen, Jinqiang Cui*, Benyun Zhao, Bingxin Han, Xuchen Liu, Zhi Gao, Ben M. Chen <br>
-> **Paper Link**: [[arxiv](https://arxiv.org/pdf/2403.19079)]
+> **Paper Link**: [[arxiv](https://arxiv.org/pdf/2403.19079)][[ICRA24](https://ieeexplore.ieee.org/document/10610639)]
 
 
 ## Overview
@@ -83,12 +83,16 @@ python tools/test.py ./configs/enyolov5s/enyolov5s-v61_syncbn_300e_syrea-duo.py 
 If you find our repo useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{wen2024real,
-  title={A Real-Time Framework for Domain-Adaptive Underwater Object Detection with Image Enhancement},
-  author={Wen, Junjie and Cui, Jinqiang and Zhao, Benyun and Han, Bingxin and Liu, Xuchen and Gao, Zhi and Chen, Ben M},
-  journal={arXiv preprint arXiv:2403.19079},
-  year={2024}
-}
+@INPROCEEDINGS{wen2024enyolo,
+  author={Wen, Junjie and Cui, Jinqiang and Zhao, Benyun and Han, Bingxin and Liu, Xuchen and Gao, Zhi and Chen, Ben M.},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={EnYOLO: A Real-Time Framework for Domain-Adaptive Underwater Object Detection with Image Enhancement}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={12613-12619},
+  keywords={Training;Autonomous underwater vehicles;Head;Object detection;Detectors;Real-time systems;Task analysis},
+  doi={10.1109/ICRA57147.2024.10610639}}
 ```
 
 ### Acknowlegements
